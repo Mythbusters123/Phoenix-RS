@@ -1,0 +1,19 @@
+[package]
+name = "phoenix-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.3.1"
+anyhow = "1.0.70"
+azalea = "0.6.0"
+azalea-ecs = "0.6.0"
+chrono = "0.4.24"
+futures = "0.3.28"
+log = "0.4.17"
+mongod = "0.3.3"
+serenity = "0.11.5"
+simplelog = "0.12.1"
+tokio = "1.27.0"
